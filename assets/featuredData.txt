@@ -1,0 +1,19 @@
+featuredData
+
++--------------+-------------+--------------+------+----------+-------------------+
+|imageURL      | price       | location     |   day|    nights|        description|
++--------------+-------------+--------------+------+----------+-------------------
+|images/1.jpg  | 98$         |Bali          |     2|         3| 24 tours available 
+|images/2.jpg  | 45$         |London        |     4|         5| 14 tours available 
+|images/3.jpg  | 923$        |Italien       |     1|         2| 04 tours available 
++--------------+-------------+--------------+------------------+--------------+
+
+feedBackData
+
++--------------+-------------+--------------+------+----------+-------------------+
+|Name            |  location     |   description|                               | imageURL
++--------------+-------------+--------------+------+----------+-------------------
+| Anika Bughari  | Bali          |   Das Personal hat uns sehr gut unterstützt. | images/user1.jpg
+| Jupiter Singh  | London        |   Genossen es auf jeden Fall!                | images/user2.jpg
+| Max Krüger     | Italien       |   Unvergesslicher Urlaub                     | images/user3.jpg
++--------------+-------------+--------------+------------------+--------------+

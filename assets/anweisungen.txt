@@ -1,0 +1,46 @@
+FOR LOOPS
+1. Erstellen Sie ein Javascript-Objekt mit dem Namen „featuredData“ und den folgenden Eigenschaften
+            - imageURL
+            - price
+            - location
+            - description
+            - days
+            - nights
+
+    const featuredData = [
+        {
+            imageURL: ,
+            price: , 
+            location: ,
+            description: ,
+            days: , 
+            nights: ,
+        }
+    ]
+
+2. Erstellen Sie eine For-Schleife
+    for (let anzahl = 0 ; anzahl < featuredData.length ; anzahl++){
+        document.getElementById('').innerHTML += `
+        
+        `
+    }
+
+WHILE LOOPS - Personalizierung
+
+1. Erstellen Sie im Header ein div-Element mit einer ID namens „personalised-input“.
+
+2. Greifen Sie in Ihrem Javascript auf die Eingabe (Input) zu
+
+3. Erstellen Sie ein Benutzerobjekt mit der Eigenschaft „Name, Nachname, isDisplay“.
+
+4. Während isLoggedIn == true dann den Namen ausgibt, sollte eine Breaking-Anweisung enthalten sein, um isDisplayed = true zu machen
+
+DO WHILE LOOPS - Feedback
+
+1. Erstellen Sie ein Javascript-Objekt mit dem Namen „feedbackData“ und den folgenden Eigenschaften
+        - Name
+        - Description
+        - Location
+2. Erstellen Sie eine Variable namens feedbackCount
+
+3. Erstellen Sie eine Do-While-Schleife, in der sie ausgeführt wird, bis 3 Rückmeldungen auf dem Bildschirm angezeigt werden
