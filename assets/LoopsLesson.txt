@@ -1,0 +1,135 @@
+
+1. Warm-Up (15-30 minuten)
+    - Erstellen Sie ein Javascript-Objekt mit dem Namen „featuredData“ und den folgenden Eigenschaften
+        - Location, Description, price
+    - Erstellen Sie ein Javascript-Objekt mit dem Namen „feedbackData“ und den folgenden Eigenschaften
+        - Name, Description
+function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
+}
+2. While Loops (15 - 30 minuten)
+
+    Beispiel 1: Countdown
+        let sekunden = 0
+
+        while (sekunden < 10) {
+            console.log(sekunden)
+            sekunden += 1
+        } console.log('Partyy! 🎉')
+    Beispiel 2: RateSpiel
+
+        let nummer = Math.Random()
+
+        while (sekunden != 10) {
+            console.log('Try Again')
+            nummer = Math.Random()
+        } console.log('Partyy! 🎉')
+    Beispiel 3: While Loop Mit Array
+        Wir müssen 3 winners geben
+        let nameList = ['Anna', 'Antonio', 'Brenda', 'Michaela', 'Julia', 'Gustav']
+        let winnersList = []
+        while (winnersList.length < 3) {
+            winnerIndex = Math.Random
+            console.log('You win' + nameList[winnerIndex])
+            winnersList.push(nameList[winner])
+        }
+3. Do While Loops (15 - 30 minuten)
+
+    Beispiel 1: Countdown
+        let sekunden = 0
+
+        do {
+            console.log(sekunden)
+            sekunden += 1
+        } while (sekunden<10)
+
+    Beispiel 2: RateSpiel
+
+        let nummer = 0
+        do {
+            console.log('Guess a number')
+            nummer = Random
+        } while ( nummer != 10)
+    
+    Beispiel 3: Do While mit Array
+        let nameList = ['Anna', 'Antonio', 'Brenda', 'Michaela', 'Julia', 'Gustav']
+        let winnersList = []
+        do {
+            winnerIndex = Math.Random
+            console.log('You win' + nameList[winnerIndex])
+            winnersList.push(nameList[winner])
+        } while(winnersList.length < 3)
+4. Pause (15 Minuten)
+5. For Loop (15 - 30 minuten)
+    Beispiel 1: Countdown
+        for (let sekunden = 0 ; sekunden < 10 ; sekunden ++){
+            console.log(sekunden)
+        }
+    Beispiel 2: RateSpiel
+
+        let RateNummer = 0
+        for ( let nummer = 0 ; nummer < 10 ; nummer ++){
+            RateNummer = Math.Random
+            if (RateNummer === 10) {
+                console.log('Das ist richtig')
+            } 
+        }
+
+    
+    Beispiel 3: For mit Array
+        let nameList = ['Anna', 'Antonio', 'Brenda', 'Michaela', 'Julia', 'Gustav']
+        let winnersList = []
+        
+        for (let nameIndex = 0 ; nameIndex < nameList.length ; nameIndex ++){
+            console.log(nameList[nameIndex])
+        }
+6. Break (15-30 minuten)
+ Beispiel 1: Countdown nur bis 5 sekunden
+        for (let sekunden = 0 ; sekunden < 10 ; sekunden ++){
+            if (sekunden == 5 ){
+                break;
+            }
+            console.log(sekunden)
+        }
+    Beispiel 2: RateSpiel
+
+        let RateNummer = 0
+        for ( let nummer = 0 ; nummer < 10 ; nummer ++){
+            RateNummer = Math.Random
+            if (RateNummer === 10) {
+                console.log('Das ist richtig')
+                break;
+            } 
+        }
+
+    
+    Beispiel 3: For mit Array
+        let nameList = ['Anna', 'Antonio', 'Brenda', 'Michaela', 'Julia', 'Gustav']
+        let winnersList = []
+        
+        for (let nameIndex = 0 ; nameIndex < nameList.length ; nameIndex ++){
+            console.log(nameList[nameIndex])
+            if (nameList[nameIndex] === 'Brenda'){
+                console.log('Wir haben schön ' + nameList[nameIndex]  + 'gefunden' )
+                break;
+            }
+        }
+7. Mittagspause (60 minuten)
+8. Git Clone 
+    1. Open your terminal 
+    2. Go to your desktop by doing : cd desktop
+    3. git clone 
+    4. Go to the Travel Website : cd redi-travel-Website
+    5. Open VSCODE : code .
+9. Open the HTML File
+    1. Go to desktop
+    2. Open your redi-travel-website folder
+    3. Click index.HTML
+10. Adding Javascript to the HTML
+    1. Go to the very bottom of the page and follow the instructions
+        1. create a file named 'main.js'
+        2. Connect the main.js to your html by using: <script src="assets/main.js"></script>
+    2. Create ID Names for the sections in HTML
+11. Refactioring Features
+    - Identify the recurring lines
+    - Create an object named fea
